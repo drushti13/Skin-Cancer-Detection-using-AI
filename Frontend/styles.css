@@ -1,0 +1,72 @@
+:root {
+  /* Color Palette */
+  --primary-blue: #2563eb;
+  --primary-teal: #0d9488;
+  --primary-purple: #7c3aed;
+  --light-blue: #93c5fd;
+  --light-teal: #99f6e4;
+  --light-purple: #c4b5fd;
+  --bg-light: #f8fafc;
+  --bg-white: #ffffff;
+  --bg-dark: #1e293b;
+  --text-dark: #1e293b;
+  --text-medium: #475569;
+  --text-light: #64748b;
+  --accent-red: #ef4444;
+  --accent-green: #10b981;
+  --accent-yellow: #f59e0b;
+  --gradient-blue: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  --gradient-teal: linear-gradient(135deg, #14b8a6 0%, #0ea5e9 100%);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: var(--bg-white);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+section:nth-child(odd) {
+  background-color: var(--bg-white);
+}
+
+section:nth-child(even) {
+  background-color: var(--bg-light);
+}
+
+h1, h2, h3, h4 {
+  color: var(--primary-blue);
+  margin-top: 0;
+}
+
+a {
+  color: var(--primary-blue);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-teal);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 20px;
+  }
+}

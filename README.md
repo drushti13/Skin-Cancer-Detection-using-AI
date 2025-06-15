@@ -30,5 +30,8 @@ This project aims to assist in the early identification of skin cancer using dee
 - **Data**:
   - HAM10000 (Training)
   - ISIC Dataset (Testing)
+ 
+##Screenshot
+![image](https://github.com/user-attachments/assets/32d732c4-c524-4bf8-b37f-a55fa7013f85)
 
 

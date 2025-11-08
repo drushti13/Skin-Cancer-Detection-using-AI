@@ -35,4 +35,6 @@ This project aims to assist in the early identification of skin cancer using dee
 
 ![image](https://github.com/user-attachments/assets/32d732c4-c524-4bf8-b37f-a55fa7013f85)
 
+<img width="927" height="852" alt="image" src="https://github.com/user-attachments/assets/a4edb460-3b6c-4efb-b932-a2f37d0cbdf0" />
+
 
